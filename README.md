@@ -1,6 +1,6 @@
 # DESCRIPTION
-->Welcome everyone, This is Ashish Kumar, and here is my first ever project based on "REACT JS && NEXT JS".
-->Its a simple To Do list, where you can store your daily routine tasks you have perform.
+  ->Welcome everyone, This is Ashish Kumar, and here is my first ever project based on "REACT JS && NEXT JS".
+  ->Its a simple To Do list, where you can store your daily routine tasks you have perform.
 
 # Visit My Website
 -> [Click Here](https://my-to-do-list-rose-theta.vercel.app/)
