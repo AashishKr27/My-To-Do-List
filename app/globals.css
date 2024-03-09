@@ -9,6 +9,7 @@ body{
   background-image: url("https://cdn.pixabay.com/photo/2020/12/05/21/07/to-do-list-5807198_1280.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   animation-name: body;
   animation-duration: 3s;
   animation-iteration-count: 1;
