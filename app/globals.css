@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body::after{
+  position: relative;
+}
+body{
+  overflow-x: hidden;
+  background-image: url("https://cdn.pixabay.com/photo/2020/12/05/21/07/to-do-list-5807198_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  animation-name: body;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+.k{
+  box-shadow: 0px 0px 20px 10px #070707ad ;
+  background-color: #ffffff94;
+}
+.top{
+  box-shadow: 0px 0px 30px 0px #030304;
+  background-color: #f1f1f51c;
+}
+.newTop{
+  animation-name: newTop;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+.container{
+  animation-name: name;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+.bottom{
+  box-shadow: 0px 0px 20px 0px #030304;
+  background-color: #f1f1f58a;
+  animation-name: bottom;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes name {
+  from{
+      margin-left: -105em;
+  }
+  to{
+      margin-left: 0rem;
+  }
+}
+
+@keyframes newTop {
+  from{
+      margin-left: -45em;
+  }
+  to{
+      margin-left: 0em;
+  }
+}
+
+@keyframes bottom {
+  from{
+    margin-top: 15em;
+  }
+  to{
+    margin-top: 2rem;
+  }
+}
+
+@keyframes body {
+  from{
+    filter: blur(10px);
+  }
+  to{
+    filter: blur(0px);
+  }
+}
+
+@media (max-width: 640px){
+  .container{
+    justify-content: center;
+  }
+  .k{
+    margin-left: 0em;
+  }
+}
+
+@media (max-width: 450px){
+  .k{
+    width: 18rem;
+  }
+  .h{
+    font-size: 1.5rem;
+  }
+  .y {
+    visibility: hidden;
+    position: relative;
+}
+  .y::after {
+    visibility: visible;
+    position: absolute;
+    content: "Desc";
+  }
+}
+
